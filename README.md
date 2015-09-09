@@ -110,14 +110,14 @@ produces >> threshold_accuracy_sphkmeans.pdf/png which displays Accuracy for dif
 
 Some of the data visualizations are saved as pdfs/pngs in plots folder. 
 
-categorization_accuracy.png -- CLuster prediction accuracy for Cosine & Euclidean distance measures
-entropy.png -- Entropy values for various iteration for both K-Means & Spherical-K-Means
-purity.png -- Purity values for various iteration for both K-Means & Spherical-K-Means
-silhouette.png -- Silhouette Threshold values for various iteration for both K-Means & Spherical-K-Means
-threshold_accuracy_euclidean.png -- which displays Accuracy for different Critical Distance Measures  (for RMWSS, Cluster Radius, Silhouette Threshold)  for Euclidean Distance
-threshold_accuracy_sphkmeans.png -- displays Accuracy for different Critical Distance Measures (for RMWSS, Cluster Radius, Silhouette Threshold)  for Cosine Distance
-threshold_rmse_euclidean.pdf -- RMSE for various Critical Distance Measures − Euclidean Distance
-threshold_rmse_sphkmeans.pdf -- RMSE for various Critical Distance Measures − Cosine Distance
+ 1. categorization_accuracy.png: Cluster prediction accuracy for Cosine & Euclidean distance measures
+ 2. entropy.png: Entropy values for various iteration for both K-Means & Spherical-K-Means
+ 3. purity.png: Purity values for various iteration for both K-Means & Spherical-K-Means
+ 4. silhouette.png:  Silhouette Threshold values for various iteration for both K-Means & Spherical-K-Means
+ 5. threshold_accuracy_euclidean.png: Which displays Accuracy for different Critical Distance Measures  (for RMWSS, Cluster Radius, Silhouette Threshold)  for Euclidean Distance
+ 6. threshold_accuracy_sphkmeans.png: Displays Accuracy for different Critical Distance Measures (for RMWSS, Cluster Radius, Silhouette Threshold)  for Cosine Distance
+ 7. threshold_rmse_euclidean.pdf: RMSE for various Critical Distance Measures − Euclidean Distance
+ 8. threshold_rmse_sphkmeans.pdf: RMSE for various Critical Distance Measures − Cosine Distance
 
 ## Contributors
 
