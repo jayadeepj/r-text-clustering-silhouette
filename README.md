@@ -1,10 +1,48 @@
-# r-text-clustering-silhouette
-## Silhouette Threshold Based Text Clustering for Log Analysis
+# Silhouette Threshold Based Text Clustering for Log Analysis
 
+This repository contains the code implementation for the research paper:
 
-This repository contains the code implementation for the below specified paper published in International Journal of Data Mining Techniques and Applications.The paper explores using document clustering techniques for automated analysis and categorization of system logs from diverse sources. It compares traditional clustering methods for organizing large log datasets and proposes efficient ways to map real-time log events to predefined categories. The work evaluates models using Entropy, Purity, and Silhouette Index, and introduces new distance measures to identify whether incoming log events belong to existing or new categories. The goal is to improve log monitoring, prioritization, and automated solution recommendations.
+> **Jayadeep, J.** (2017). *Silhouette Threshold Based Text Clustering for Log Analysis.*  
+> *International Journal of Data Mining Techniques and Applications*, 6(1), 17–25.
 
+---
 
+## Overview
+
+The project explores **document clustering techniques** for the **automated analysis and categorization of system logs** from multiple sources.  
+It introduces a **Silhouette Threshold-based approach** to dynamically identify whether a log entry belongs to an existing or new cluster, improving log organization, monitoring, and automated recommendations.
+
+---
+
+### Key Highlights
+
+- Proposes a **Silhouette Threshold-based clustering method** for log analysis.  
+- Compares traditional algorithms like **K-Means**, **Hierarchical**, and **DBSCAN**.  
+- Evaluates clustering performance using **Entropy**, **Purity**, and **Silhouette Index**.  
+- Introduces **custom distance measures** for new log event classification.  
+- Aims to improve **real-time log mapping** and **automated issue resolution**.
+
+---
+
+## Methodology
+
+1. **Data Preprocessing**  
+   - Log parsing, tokenization, and TF-IDF vectorization.  
+
+2. **Clustering Algorithms**  
+   - K-Means, Hierarchical, DBSCAN, and Silhouette Threshold-based clustering.  
+
+3. **Evaluation Metrics**  
+   - **Entropy** – cluster homogeneity  
+   - **Purity** – cluster accuracy  
+   - **Silhouette Index** – cohesion and separation  
+
+4. **Dynamic Thresholding**  
+   - Determines cluster membership for incoming logs using the Silhouette value.
+
+---
+
+## Citation
 
 ```bibtex
 @article{jayadeep2017silhouette,
@@ -16,6 +54,3 @@ This repository contains the code implementation for the below specified paper p
   pages={17--25},
   year={2017}
 }
-
-
-
